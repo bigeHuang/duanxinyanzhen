@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AF6DC921B96EFE0003AE21D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6DC911B96EFE0003AE21D /* main.m */; };
+		3AF6DC951B96EFE0003AE21D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6DC941B96EFE0003AE21D /* AppDelegate.m */; };
+		3AF6DC981B96EFE0003AE21D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6DC971B96EFE0003AE21D /* ViewController.m */; };
+		3AF6DC9B1B96EFE0003AE21D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF6DC991B96EFE0003AE21D /* Main.storyboard */; };
+		3AF6DC9D1B96EFE0003AE21D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF6DC9C1B96EFE0003AE21D /* Images.xcassets */; };
+		3AF6DCA01B96EFE0003AE21D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AF6DC9E1B96EFE0003AE21D /* LaunchScreen.xib */; };
+		3AF6DCAC1B96EFE0003AE21D /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6DCAB1B96EFE0003AE21D /* ____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AF6DCA61B96EFE0003AE21D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AF6DC841B96EFE0003AE21D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AF6DC8B1B96EFE0003AE21D;
+			remoteInfo = "短信验证";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AF6DC8C1B96EFE0003AE21D /* 短信验证.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "短信验证.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF6DC901B96EFE0003AE21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF6DC911B96EFE0003AE21D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AF6DC931B96EFE0003AE21D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3AF6DC941B96EFE0003AE21D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3AF6DC961B96EFE0003AE21D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3AF6DC971B96EFE0003AE21D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3AF6DC9A1B96EFE0003AE21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AF6DC9C1B96EFE0003AE21D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3AF6DC9F1B96EFE0003AE21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3AF6DCA51B96EFE0003AE21D /* 短信验证Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "短信验证Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF6DCAA1B96EFE0003AE21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF6DCAB1B96EFE0003AE21D /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AF6DC891B96EFE0003AE21D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF6DCA21B96EFE0003AE21D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AF6DC831B96EFE0003AE21D = {
+			isa = PBXGroup;
+			children = (
+				3AF6DC8E1B96EFE0003AE21D /* 短信验证 */,
+				3AF6DCA81B96EFE0003AE21D /* 短信验证Tests */,
+				3AF6DC8D1B96EFE0003AE21D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AF6DC8D1B96EFE0003AE21D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AF6DC8C1B96EFE0003AE21D /* 短信验证.app */,
+				3AF6DCA51B96EFE0003AE21D /* 短信验证Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AF6DC8E1B96EFE0003AE21D /* 短信验证 */ = {
+			isa = PBXGroup;
+			children = (
+				3AF6DC931B96EFE0003AE21D /* AppDelegate.h */,
+				3AF6DC941B96EFE0003AE21D /* AppDelegate.m */,
+				3AF6DC961B96EFE0003AE21D /* ViewController.h */,
+				3AF6DC971B96EFE0003AE21D /* ViewController.m */,
+				3AF6DC991B96EFE0003AE21D /* Main.storyboard */,
+				3AF6DC9C1B96EFE0003AE21D /* Images.xcassets */,
+				3AF6DC9E1B96EFE0003AE21D /* LaunchScreen.xib */,
+				3AF6DC8F1B96EFE0003AE21D /* Supporting Files */,
+			);
+			path = "短信验证";
+			sourceTree = "<group>";
+		};
+		3AF6DC8F1B96EFE0003AE21D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AF6DC901B96EFE0003AE21D /* Info.plist */,
+				3AF6DC911B96EFE0003AE21D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AF6DCA81B96EFE0003AE21D /* 短信验证Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3AF6DCAB1B96EFE0003AE21D /* ____Tests.m */,
+				3AF6DCA91B96EFE0003AE21D /* Supporting Files */,
+			);
+			path = "短信验证Tests";
+			sourceTree = "<group>";
+		};
+		3AF6DCA91B96EFE0003AE21D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AF6DCAA1B96EFE0003AE21D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AF6DC8B1B96EFE0003AE21D /* 短信验证 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AF6DCAF1B96EFE0003AE21D /* Build configuration list for PBXNativeTarget "短信验证" */;
+			buildPhases = (
+				3AF6DC881B96EFE0003AE21D /* Sources */,
+				3AF6DC891B96EFE0003AE21D /* Frameworks */,
+				3AF6DC8A1B96EFE0003AE21D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "短信验证";
+			productName = "短信验证";
+			productReference = 3AF6DC8C1B96EFE0003AE21D /* 短信验证.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AF6DCA41B96EFE0003AE21D /* 短信验证Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AF6DCB21B96EFE0003AE21D /* Build configuration list for PBXNativeTarget "短信验证Tests" */;
+			buildPhases = (
+				3AF6DCA11B96EFE0003AE21D /* Sources */,
+				3AF6DCA21B96EFE0003AE21D /* Frameworks */,
+				3AF6DCA31B96EFE0003AE21D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AF6DCA71B96EFE0003AE21D /* PBXTargetDependency */,
+			);
+			name = "短信验证Tests";
+			productName = "短信验证Tests";
+			productReference = 3AF6DCA51B96EFE0003AE21D /* 短信验证Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AF6DC841B96EFE0003AE21D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "黄建鸿";
+				TargetAttributes = {
+					3AF6DC8B1B96EFE0003AE21D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3AF6DCA41B96EFE0003AE21D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3AF6DC8B1B96EFE0003AE21D;
+					};
+				};
+			};
+			buildConfigurationList = 3AF6DC871B96EFE0003AE21D /* Build configuration list for PBXProject "短信验证" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AF6DC831B96EFE0003AE21D;
+			productRefGroup = 3AF6DC8D1B96EFE0003AE21D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AF6DC8B1B96EFE0003AE21D /* 短信验证 */,
+				3AF6DCA41B96EFE0003AE21D /* 短信验证Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AF6DC8A1B96EFE0003AE21D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF6DC9B1B96EFE0003AE21D /* Main.storyboard in Resources */,
+				3AF6DCA01B96EFE0003AE21D /* LaunchScreen.xib in Resources */,
+				3AF6DC9D1B96EFE0003AE21D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF6DCA31B96EFE0003AE21D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AF6DC881B96EFE0003AE21D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF6DC981B96EFE0003AE21D /* ViewController.m in Sources */,
+				3AF6DC951B96EFE0003AE21D /* AppDelegate.m in Sources */,
+				3AF6DC921B96EFE0003AE21D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF6DCA11B96EFE0003AE21D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF6DCAC1B96EFE0003AE21D /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AF6DCA71B96EFE0003AE21D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AF6DC8B1B96EFE0003AE21D /* 短信验证 */;
+			targetProxy = 3AF6DCA61B96EFE0003AE21D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AF6DC991B96EFE0003AE21D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AF6DC9A1B96EFE0003AE21D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AF6DC9E1B96EFE0003AE21D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AF6DC9F1B96EFE0003AE21D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AF6DCAD1B96EFE0003AE21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3AF6DCAE1B96EFE0003AE21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AF6DCB01B96EFE0003AE21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "短信验证/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3AF6DCB11B96EFE0003AE21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "短信验证/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3AF6DCB31B96EFE0003AE21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "短信验证Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/短信验证.app/短信验证";
+			};
+			name = Debug;
+		};
+		3AF6DCB41B96EFE0003AE21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "短信验证Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/短信验证.app/短信验证";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AF6DC871B96EFE0003AE21D /* Build configuration list for PBXProject "短信验证" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF6DCAD1B96EFE0003AE21D /* Debug */,
+				3AF6DCAE1B96EFE0003AE21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AF6DCAF1B96EFE0003AE21D /* Build configuration list for PBXNativeTarget "短信验证" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF6DCB01B96EFE0003AE21D /* Debug */,
+				3AF6DCB11B96EFE0003AE21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AF6DCB21B96EFE0003AE21D /* Build configuration list for PBXNativeTarget "短信验证Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF6DCB31B96EFE0003AE21D /* Debug */,
+				3AF6DCB41B96EFE0003AE21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AF6DC841B96EFE0003AE21D /* Project object */;
+}
